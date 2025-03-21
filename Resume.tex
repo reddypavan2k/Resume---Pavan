@@ -1,0 +1,271 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Pavan Sainath Reddy Vajrala} \\[5pt]
+    \small \raisebox{-0.1\height}\faPhone\ \underline{+1 614-332-1793} ~
+    \href{mailto:vajralapavansainathreddy@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ \underline{vajralapavansainathreddy@gmail.com}} ~
+    \href{https://www.linkedin.com/in/pavan-sainath-reddy-}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/pavan-sainath-reddy-}}
+\end{center}
+
+% Profile Summary Section
+\section{Profile Summary}\vspace{2mm}
+\resumeSubHeadingListStart
+    \item
+    {
+        Driven and technically proficient Master’s student in Computer Science with a strong foundation in Artificial Intelligence, Machine Learning, and Data Analysis. Leveraging a Bachelor's degree in Computer Science and Engineering, I possess hands-on experience in machine learning and natural language processing (NLP) through academic and internship projects. Skilled in programming and analytical problem-solving, I am enthusiastic about contributing to data-driven and AI-focused projects that drive innovation and deliver meaningful insights. Currently seeking opportunities to expand my expertise and make impactful contributions within a dynamic tech environment.
+    }
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+ \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Illinois}{2024 – Present}
+      {\textit{Master's in Computer Science, CGPA: 3.7/4.0}}{Illinois, United States}
+    \resumeSubheading
+      {Kalasalingam Academy of Research and Education}{2020 – 2024}
+      {\textit{B.Tech in Computer Science (AI \& ML), CGPA: 8.8/10.00}}{Tamil Nadu, India}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Native Sparrow Software Solutions}{April 2023 – June 2023}
+      {Machine Learning Intern}{Chennai, Tamil Nadu}
+      \resumeItemListStart
+        \item Developed and implemented machine learning models for real-time video data processing, gaining experience in creating practical, domain-specific use cases.
+        \item Engineered a Python-based machine learning algorithm for traffic data analysis, resulting in a 30\% reduction in processing time and enabling academic users to make faster, data-driven decisions.
+        \item Focused on enhancing software reliability and performance, creating robust training materials for academic tools.
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Job Simulations}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {New York Jobs CEO Council}{November 2024}
+      {Software Engineering Intern}{Virtual}
+      \resumeItemListStart
+        \item Completed a challenging simulation focused on debugging and developing features for the software engineering team.
+        \item Resolved a critical bug in an automated billing system by skillfully identifying the root cause and developing an effective solution.
+        \item Improved user experience by developing a code that supports a note-taking feature on each invoice, enhancing communication and transparency between senders and recipients.
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {British Airways Data Science Job Simulation on Forage}{February 2025}
+      {Data Science Intern}{Virtual}
+      \resumeItemListStart
+        \item Completed a simulation focusing on how data science is a critical component of British Airways' success.
+        \item Scraped and analyzed customer review data to uncover findings.
+        \item Built a predictive model to understand factors that influence buying behavior.
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AWS APAC Solutions Architecture Virtual Experience Program on Forage}{November 2024}
+      {Solutions Architecture Intern}{Virtual}
+      \resumeItemListStart
+        \item Designed a simple and scalable hosting architecture based on Elastic Beanstalk for a client experiencing significant growth and slow response times.
+        \item Described the proposed architecture in plain language, ensuring the client understood how it works and how costs will be calculated.
+      \resumeItemListEnd
+\vspace{-2pt}
+    \resumeSubheading
+      {Walmart USA Advanced Software Engineering Virtual Experience Program on Forage}{February 2025}
+      {Advanced Software Engineering Intern}{Virtual}
+      \resumeItemListStart
+        \item Completed the Advanced Software Engineering Job Simulation where I solved difficult technical projects for a variety of teams at Walmart.
+        \item Developed a novel version of a heap data structure in Java for Walmart’s shipping department, showcasing strong problem-solving and algorithmic skills.
+        \item Designed a UML class diagram for a data processor, considering different operating modes and database connections.
+        \item Created an entity relationship diagram to design a new database accounting for all requirements provided by Walmart’s pet department.
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+\textbf{Automated Diabetic Retinopathy Prediction} $|$ \emph{Python, TensorFlow, Keras} \hfill \textit{August 2023}
+\begin{itemize}
+    \item Implemented a deep learning-based Modified DenseNet model to detect diabetic retinopathy from retinal images, achieving high accuracy and sensitivity.
+    \item Preprocessed large datasets using image augmentation techniques to enhance model robustness and improve prediction performance.
+    \item Optimized the DenseNet architecture by fine-tuning hyperparameters and integrating dropout layers to prevent overfitting, improving overall model precision.
+\end{itemize}
+
+\textbf{Cryptowatch} $|$ \emph{Python, TensorFlow, scikit-learn, SQL} \hfill \textit{January 2024}
+\begin{itemize}
+    \item Developed a machine learning-based system to monitor cryptocurrency price fluctuations and predict future trends using real-time market data.
+    \item Implemented supervised learning models such as Random Forest and LSTM to analyze historical data and forecast cryptocurrency prices with a prediction accuracy of 85\%.
+    \item Integrated APIs for real-time data fetching, automated pipeline execution, and dynamic visualization of market trends, enabling user-friendly insights into trading opportunities.
+\end{itemize}
+
+\textbf{COVID-19 Dashboard} $|$ \emph{Tableau, Python, MS Excel, SQL} \hfill \textit{March 2022}
+\begin{itemize}
+    \item Created an interactive COVID-19 dashboard to visualize global and country-specific statistics, including confirmed cases, recoveries, and fatalities, using real-time data from reliable sources.
+    \item Designed targeted filters for user-selected metrics in the COVID-19 dashboard; enhanced overall engagement by 30\% through improved navigation and access to critical information relevant during rapidly changing circumstances.
+    \item Collaborated with a cross-functional team to ensure the dashboard met user requirements, resulting in a comprehensive and intuitive interface for health professionals and policymakers.
+\end{itemize}
+
+\textbf{Traffic Sign Recognition System} $|$ \emph{Python, TensorFlow, OpenCV} \hfill \textit{October 2024}
+\begin{itemize}
+    \item Developed a machine learning-based system to recognize and classify traffic signs using image data from the German Traffic Sign Recognition Benchmark (GTSRB).
+    \item Implemented a Convolutional Neural Network (CNN) for feature extraction and classification, achieving an accuracy of 96\% on the test dataset.
+    \item Preprocessed image data using techniques such as resizing, normalization, and augmentation to improve model generalization and robustness.
+    \item Integrated the system into a prototype application for real-time traffic sign detection and classification, simulating autonomous vehicle scenarios.
+\end{itemize}
+
+%-----------TECHNICAL SKILLS-----------
+\section*{Technical Skills}
+\begin{itemize}
+    \setlength{\itemsep}{0pt} % Reduces the space between items
+    \item \textbf{Programming Languages:} Java, Python, C++, R.
+    \item \textbf{Databases:} SQL, MongoDB, PostgreSQL.
+    \item \textbf{Frameworks and Libraries:} Pandas, NumPy, TensorFlow, PyTorch.
+    \item \textbf{Visualization Tools:} Tableau, Power BI, Matplotlib.
+    \item \textbf{Tools and IDEs:} Git, GitHub, Visual Studio Code, PyCharm, Jupyter Notebook, Docker.
+    \item \textbf{Operating Systems:} Unix, Windows, Linux.
+    \item \textbf{Soft Skills:} Time Management, Problem Solving, Teamwork, Creativity, Work Ethic, Adaptability.
+    \item \textbf{Areas of Interest:} Artificial Intelligence, Machine Learning, Data Analytics.
+\end{itemize}
+
+\section*{Certifications}
+\item \textbf{\href{https://skillshop.credential.net/9c8571fe-ad59-4984-b8b5-6c0470d70f73}{Google Analytics Certification}} \hfill \textit{2024}
+\begin{itemize}
+\item Gained proficiency in analyzing website traffic, user behavior, and key performance metrics using Google Analytics tools.
+\item Developed expertise in setting up tracking, interpreting reports, and leveraging data-driven insights to optimize marketing strategies.
+\end{itemize}
+\item \textbf{\href{https://www.coursera.org/account/accomplishments/professional-cert/3P5H4ZJ6XQXA}{IBM Machine Learning Professional}} \hfill \textit{2023}
+\begin{itemize}
+\item Acquired hands-on skills in building, training, and deploying machine learning models using Python libraries (Scikit-Learn, Pandas) and IBM Cloud services for real-world applications.
+\item Developed expertise in core machine learning concepts, including supervised/unsupervised learning, model evaluation, and data preprocessing techniques.
+\end{itemize}
+\item \textbf{\href{https://www.credly.com/badges/c5e2a324-14f0-4893-9e3a-ccb7c7e3ce4b/public_url}{IBM Machine Learning Graduate}} \hfill \textit{2024}
+\begin{itemize}
+\item Learned how to build and improve machine learning models to solve real-world problems, focusing on both classification and clustering techniques.
+\item Practiced using Python tools (like Scikit-Learn and Pandas) and IBM Cloud to create and deploy machine learning projects.
+\end{itemize}
+
+\section{Extracurricular Activities}
+\resumeSubheading
+    {UIS International Festival Volunteer}{October 2024 – November 2024}
+    {University of Illinois Springfield} {Arts and Culture}
+    \resumeItemListStart
+        \resumeItem{Volunteered as a front desk check-in member, assisting with guest registration and providing event information.}
+        \resumeItem{Helped coordinate festival activities, ensuring a welcoming experience for attendees.}
+    \resumeItemListEnd
+
+\section*{Publications}
+\textbf{\href{https://ieeexplore.ieee.org/document/10425652}{Automated Diabetic Retinopathy Prediction using a Deep Learning-based Modified DenseNet}} \\
+\emph{2023 2nd International Conference on Futuristic Technologies (INCOFT)} \hfill December 2023
+\begin{itemize}
+    \item Presented a deep learning approach for predicting diabetic retinopathy using a modified DenseNet architecture, improving accuracy and efficiency in diagnosis.
+    \item Optimized model performance by leveraging data augmentation techniques and fine-tuning the DenseNet architecture, achieving significant improvements in sensitivity and specificity.
+    \item Developed an end-to-end solution that integrated preprocessing, model training, and evaluation, providing a comprehensive tool for automated retinopathy detection in clinical environments.
+\end{itemize}
+
+
+\end{document}
